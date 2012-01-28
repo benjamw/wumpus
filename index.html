@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+	<!-- last edited on 2009-09-27 -->
+	<title>hunt the wumpus</title>
+	<!-- original url: http://iohelix.net/wumpus/ -->
+
+	<meta name="description" content="Javascript port of the classis BASIC game: Hunt the Wumpus">
+	<meta name="keywords" content="JavaScript, Hunt the Wumpus, Wumpus, BASIC, port">
+	<meta name="author" content="Benjam Welker">
+	<meta name="copyright" content="Benjam Welker">
+
+	<script type="text/javascript" src="terminal.js"></script>
+	<script type="text/javascript" src="wumpus.js"></script>
+	<script type="text/javascript">
+		// set the events
+		window.onload = function( ) { document.forms[0].onsubmit = function( ) { return false; }; Terminal.init( ); }
+		window.onclick = function( ) { document.forms[0].stdin.focus( ); }
+	</script>
+
+	<style type="text/css">
+		html, body, input.stdin {
+			background: #000;
+			font-size: 16px;
+			font-family: Consoloas, 'Lucida Console', monospace;
+			color: #0F0;
+			border-width: 0;
+		}
+	</style>
+
+</head>
+<body>
+
+	<form action="" method="post"><div id="stdout">
+		<input type="text" name="stdin" id="stdin" class="stdin">
+	</div></form>
+
+	<script type="text/javascript"></script>
+	<noscript><p class="warning">You must have JavaScript enabled to play this game</p></noscript>
+
+</body>
+</html>

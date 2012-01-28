@@ -1,0 +1,5 @@
+seems to be something wrong with hex cave and shooting
+it would ask shoot or move, enter s, then ask num of rooms
+enter 1, then ask shoot or move, like it missed something
+
+also... there are a few typos in the instructions
